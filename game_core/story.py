@@ -7,7 +7,15 @@ from game_core.game_manager import GameManager
 
 class Story:
     def __init__(self):
-        self.msg='''Commander!\nIt's a great relief that you joined. On our voage to a new home.We encounter a group of humanoid. We are now left with a small fleet and there's no chance to retret.'''
+        self.msg='''Commander!\nIt's a great relief that you joined. Humankind has reached its new home, planet Kepler-1606b.
+        It is one among a few other habitable planets of the universe. Our ships had just landed a few weeks ago on the surface when we found a fleet of warships invading the atmosphere. 
+        We thought it was a fleet of refugees like us. In the beginning they seemed very cordial and were a collation of human-like spicies. We shared our few resources with them. But one day they received a signal from a very distant source. 
+        Before that transmission we were sharing the planet with harmony but few months later we found their true identity. They were a group of space-pirates that plundered different planets and use them as a 
+        temporary homestead while they consumed the resources and stole most of it. Our chief warnde them and thretended them to retret but they declared a war againsr us. Thanks to the almighty we had a
+        small fleet to protect ourselves from unknown galactic enemies. But now it seems very difficult to win against them as few days ago one of their fleets invaded the planet and attacked on our defense systems. Not only this,
+        they seem to uses some unknown source of energy. They replicated our weapons, machines and everything and are now using it against us. They enemy has grown very powerful but now we will have to somehow win against them. It's a war of 
+        civilizations and we can't retreat. This is our last hope of survival.\nCommander we believe with your arrival we may win the war.'''
+        
         self.game_display = pygame.display.set_mode((constants.display_width, constants.display_height))
         self.clock = pygame.time.Clock()
         self.img=pygame.image.load("assets/images/warfield.jpg").convert_alpha()
