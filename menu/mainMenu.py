@@ -108,8 +108,6 @@ def start_game():
     Function under Start button
     :return: none
     """
-    print("player number in startfunc: "+str(constants.players_number))
-    print("Tank number in startfunc: "+str(constants.tanks_number))
     Story().run()
 
 
