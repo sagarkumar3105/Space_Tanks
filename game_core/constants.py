@@ -46,3 +46,17 @@ simple_shell_radius = 50
 # temporary simple ground
 ground_height_min = 500
 ground_height_max = 800
+
+# player settings
+health_bar_init_positions = [(10, 10), (1400, 10), (10, 45), (1400, 45)]
+health_bar_length = 100
+players_number = 2
+max_players_number = 4
+tanks_number = 2
+max_tanks_number = 4
+
+# PyGame fonts
+class FontSize(Enum):
+    SMALL = 1
+    MEDIUM = 2
+    LARGE = 3
