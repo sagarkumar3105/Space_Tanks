@@ -5,8 +5,12 @@
 
 
 ## Running the game
-1. Open `SpaceTank.bat` file `OR` Execute the `space_tanks.py` file directly from cmd
-2. Wait for the game to start
+1. Open `SpaceTank.bat` file `OR` 
+2. Execute the `space_tanks.py` file directly from cmd with following commands [in Windows System]
+    * Open Command prompt, goto location where `space_tanks.py` is present
+    * Write following command and press enter
+    * ```python run space_tanks.py``` 
+4. Wait for the game to start
 
 ## Starting Game:
 1. Press `Start`
